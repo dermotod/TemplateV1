@@ -13,13 +13,13 @@ export default function Home() {
       <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
         {/* Header */}
         <header className="relative overflow-hidden">
-          <div className="absolute inset-y-0 w-full h-[500px] bg-gradient-to-r from-blue-500 to-indigo-600 transform -skew-y-3 origin-top-right -translate-y-36"></div>
+          <div className="absolute inset-y-0 w-full h-[500px] bg-gradient-to-r from-purple-600 to-purple-800 transform -skew-y-3 origin-top-right -translate-y-36"></div>
           <div className="relative max-w-7xl mx-auto pt-20 pb-16 px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight">
               <span className="block text-white mb-1">Starter Template</span>
-              <span className="block text-indigo-200">Build anything you imagine</span>
+              <span className="block text-purple-200">Build anything you imagine</span>
             </h1>
-            <p className="mt-6 max-w-lg mx-auto text-xl text-indigo-100 sm:max-w-3xl">
+            <p className="mt-6 max-w-lg mx-auto text-xl text-purple-100 sm:max-w-3xl">
               A modern application template powered by Next.js, Supabase, and AI technologies
             </p>
           </div>
@@ -36,7 +36,7 @@ export default function Home() {
         <section className="py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
-              <h2 className="text-base font-semibold text-indigo-600 tracking-wide uppercase">Features</h2>
+              <h2 className="text-base font-semibold text-purple-600 tracking-wide uppercase">Features</h2>
               <p className="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl lg:text-5xl">
                 Everything you need to get started
               </p>
@@ -50,7 +50,7 @@ export default function Home() {
                 {/* AI Chat App */}
                 <div className="group relative">
                   <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
-                    <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-indigo-600 opacity-90"></div>
+                    <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-pink-600 opacity-90"></div>
                     <div className="absolute inset-0 flex flex-col justify-between p-6 text-white">
                       <div>
                         <h3 className="text-xl font-bold">AI Chat App</h3>
@@ -160,7 +160,7 @@ export default function Home() {
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
-              <h2 className="text-base font-semibold text-indigo-600 tracking-wide uppercase">Tech Stack</h2>
+              <h2 className="text-base font-semibold text-purple-600 tracking-wide uppercase">Tech Stack</h2>
               <p className="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">
                 Built with modern technologies
               </p>
@@ -169,7 +169,7 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-8 md:grid-cols-5">
                 <div className="col-span-1 flex justify-center items-center">
                   <div className="flex flex-col items-center">
-                    <div className="flex items-center justify-center h-16 w-16 rounded-full bg-indigo-100 text-indigo-600">
+                    <div className="flex items-center justify-center h-16 w-16 rounded-full bg-purple-100 text-purple-600">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                       </svg>
@@ -209,7 +209,7 @@ export default function Home() {
                 </div>
                 <div className="col-span-1 flex justify-center items-center">
                   <div className="flex flex-col items-center">
-                    <div className="flex items-center justify-center h-16 w-16 rounded-full bg-blue-100 text-blue-600">
+                    <div className="flex items-center justify-center h-16 w-16 rounded-full bg-purple-100 text-purple-600">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                       </svg>
@@ -223,17 +223,17 @@ export default function Home() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-indigo-700">
+        <section className="bg-purple-700">
           <div className="max-w-2xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
               <span className="block">Ready to get started?</span>
             </h2>
-            <p className="mt-4 text-lg leading-6 text-indigo-200">
+            <p className="mt-4 text-lg leading-6 text-purple-200">
               Choose a template and start building your next great project with modern tools and technologies.
             </p>
             <a
               href="#"
-              className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50 sm:w-auto"
+              className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-purple-600 bg-white hover:bg-purple-50 sm:w-auto"
             >
               View Documentation
             </a>
