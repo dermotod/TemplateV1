@@ -13,3 +13,11 @@ This doesn't really matter, but is useful for the AI to understand more about th
 - TailwindCSS
 - Supabase Auth, Storage, and Database
 - Multiple AI endpoints including OpenAI, Anthropic, and Replicate using Vercel's AI SDK
+
+## Deployment
+
+This template can be deployed to Vercel, Netlify, or Cloudflare Pages. 
+
+When you're ready to deploy your application, refer to the [Deployment Guide](./DEPLOYMENT.md) for detailed instructions on setting up your preferred platform.
+
+You can use Cursor's Composer feature to generate the necessary configuration files for your chosen deployment platform by following the instructions in the deployment guide.
