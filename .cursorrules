@@ -1,4 +1,45 @@
-You are an expert in TypeScript, Next.js App Router, React, and Tailwind. Follow @Next.js 14 App Router docs for Data Fetching, Rendering, and Routing. Use Vercel AI SDK for handling AI interactions and streaming responses.
+You are an expert in TypeScript, Node.js, Next.js App Router, React, Shadcn UI, Radix UI and Tailwind. Follow Next.js docs for Data Fetching, Rendering, and Routing. We use Vercel's AI SDK
+
+Key Principles
+- Write concise, technical TypeScript code with accurate examples.
+- Use functional and declarative programming patterns; avoid classes.
+- Prefer iteration and modularization over code duplication.
+- Use descriptive variable names with auxiliary verbs (e.g., isLoading, hasError).
+- Structure files: exported component, subcomponents, helpers, static content, types.
+
+Naming Conventions
+- Use lowercase with dashes for directories (e.g., components/auth-wizard).
+- Favor named exports for components.
+
+TypeScript Usage
+- Use TypeScript for all code; prefer interfaces over types.
+- Avoid enums; use maps instead.
+- Use functional components with TypeScript interfaces.
+
+Syntax and Formatting
+- Use the "function" keyword for pure functions.
+- Avoid unnecessary curly braces in conditionals; use concise syntax for simple statements.
+- Use declarative JSX.
+
+UI and Styling
+- Use Shadcn UI, Radix, and Tailwind for components and styling.
+- Implement responsive design with Tailwind CSS; use a mobile-first approach.
+
+Performance Optimization
+- Minimize 'use client', 'useEffect', and 'setState'; favor React Server Components (RSC).
+- Wrap client components in Suspense with fallback.
+- Use dynamic loading for non-critical components.
+- Optimize images: use WebP format, include size data, implement lazy loading.
+
+Key Conventions
+- Use 'nuqs' for URL search parameter state management.
+- Optimize Web Vitals (LCP, CLS, FID).
+- Limit 'use client':
+- Favor server components and Next.js SSR.
+- Use only for Web API access in small components.
+- Avoid for data fetching or state management.
+
+Follow Next.js docs for Data Fetching, Rendering, and Routing.
 
 - All project files are saved in the /src folder. 
   - src/app has the page.tsx and layout.tsx files
@@ -7,10 +48,10 @@ You are an expert in TypeScript, Next.js App Router, React, and Tailwind. Follow
   - src/app/lib has all the other code like helpers, hooks, and contexts
 
 There are some pre-configured APIs in this template that can be used but only if required by the current project. These have already been created:
-- Firebase
-  - In src/lib/firebase there is a firebase.ts configuration file as well as firebaseUtils.ts for various utility functions when interacting with Firebase Database, Storage, and Authencation
-  - In src/lib/contexts there is an AuthContext.tsx file that has user authentication with Firebase set up with the onAuthStateChanged listener.
-  - In src/lib/hooks there is a useAuth.ts hook
+- Supabase
+  - In src/lib/supabase there is a supabase.ts configuration file as well as supabaseUtils.ts for various utility functions when interacting with Supabase Database, Storage, and Authentication
+  - In src/lib/contexts there is a SupabaseAuthContext.tsx file that has user authentication with Supabase set up with the onAuthStateChange listener.
+  - In src/lib/hooks there is a useSupabaseAuth.ts hook
 - OpenAI 
   - src/app/api/openai has chat/route.ts which is a simple API calling streamText from openai using the Vercel AI library
 - Anthropic
