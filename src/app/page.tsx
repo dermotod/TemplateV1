@@ -1,11 +1,5 @@
 import Link from "next/link";
-import dynamic from "next/dynamic";
 import Head from "next/head";
-
-// Use dynamic import with no SSR for the auth component
-const SupabaseAuth = dynamic(() => import("@/components/SupabaseAuth"), {
-  ssr: false,
-});
 
 export default function Home() {
   return (
@@ -24,13 +18,6 @@ export default function Home() {
             </p>
           </div>
         </header>
-
-        {/* Auth Section */}
-        <section className="relative z-10 max-w-md mx-auto px-4 sm:px-6 -mt-16">
-          <div className="bg-white rounded-lg shadow-xl overflow-hidden">
-            <SupabaseAuth />
-          </div>
-        </section>
 
         {/* Features Section */}
         <section className="py-20">
